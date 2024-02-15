@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Japsik (Minecraft 1.20.4)",
+    "description": "Japsik Running Minecraft 1.20.4 (Fabric v0.15.6)",
+    "icon": "https://cdn.discordapp.com/attachments/1192648861425078355/1207679264699326534/Japsik_Logo.png",
+    "address": "japsik.kro.kr:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.6"
+  },
+  "untrackedFiles": []
+}
