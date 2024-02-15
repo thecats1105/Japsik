@@ -1,0 +1,465 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Japsik-1.20.4",
+      "name": "Japsik (Minecraft 1.20.4)",
+      "description": "Japsik Running Minecraft 1.20.4 (Fabric v0.15.6)",
+      "icon": "https://cdn.discordapp.com/attachments/1192648861425078355/1207679264699326534/Japsik_Logo.png",
+      "version": "1.0.0",
+      "address": "japsik.kro.kr:25565",
+      "minecraftVersion": "1.20.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.6",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1321135,
+            "MD5": "744dbc7c568d7e782e6616637a14f6b3",
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.15.6",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "dcb2ba16c9eedaa2a87cbcbdfe77474f",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/versions/1.20.4-fabric-0.15.6/1.20.4-fabric-0.15.6.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1451874,
+                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:5.3.5@jar",
+          "name": "AmbientSounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84333979,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/AmbientSounds_FABRIC_v5.3.5_mc1.20.4.jar",
+            "MD5": "e9f289d3e423653cff1c66fb43a5b177"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.cominixo:betterf3:9.0.0@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1772502,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/BetterF3-9.0.0-Fabric-1.20.4.jar",
+            "MD5": "591e2b3c753c648d9679439125c3b127"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.2.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155092,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/blur-3.2.0.jar",
+            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
+          "name": "Cloth Config v13",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1142084,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
+            "MD5": "3903e7d3c9957bacedae1365ba856202"
+          }
+        },
+        {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.4.0-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 145184,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/CocoaInput-1.20.2-fabric-4.4.0-EXPERIMENTAL.jar",
+            "MD5": "b9fc7bc45cae0be15333d8ac17de1c4e"
+          }
+        },
+        {
+          "id": "arm32x.minecraft.commandblockide:command-block-ide:0.4.5@jar",
+          "name": "Command Block IDE",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 245917,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/command-block-ide-0.4.5.jar",
+            "MD5": "4ad76ce2b130d8a27fd18396e1e3624f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050675,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/continuity-3.0.0-beta.4+1.20.2.jar",
+            "MD5": "b348965933103bb02f9731c6bca76398"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.11.16@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1104894,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/CreativeCore_FABRIC_v2.11.16_mc1.20.4.jar",
+            "MD5": "bd892cf0811bdde39a9bd2171eff5599"
+          }
+        },
+        {
+          "id": "dynamic_fps.impl:dynamic_fps:3.3.3@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 78714,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/dynamic-fps-3.3.3+minecraft-1.20.0.jar",
+            "MD5": "d84568b4d135f0da2ba7b1c9d89f6641"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.96.1+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149865,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/fabric-api-0.96.1+1.20.4.jar",
+            "MD5": "c825c041b46082dd99f5a1f21ed8217d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.10.17+kotlin.1.9.22@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6732012,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/fabric-language-kotlin-1.10.17+kotlin.1.9.22.jar",
+            "MD5": "2476cb3269c5ff2876a1ebb546fc4289"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.4@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 153985,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/fallingleaves-1.15.4+1.20.1.jar",
+            "MD5": "c444460976f53149c92c04c5c8d8b237"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125100,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104805,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
+            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:invmove:1.20-0.8.5-Forge@jar",
+          "name": "InvMove",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 128489,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/InvMove-1.20-0.8.5-Forge.jar",
+            "MD5": "25a64eac3469c8d4fd5ecf5a308deaff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.6.17@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2421865,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/iris-mc1.20.4-1.6.17.jar",
+            "MD5": "cc391df9e929608c37a04a342c6babb3"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 716022,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346"
+          }
+        },
+        {
+          "id": "generated.fabricmod:make_bubbles_pop:0.2.0-fabric-mc1.19.4+@jar",
+          "name": "Make_bubbles_pop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18643,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/make_bubbles_pop-0.2.0-fabric-mc1.19.4+.jar",
+            "MD5": "03c3b1c78677e44127eafa695018c7e8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:9.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 724484,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/modmenu-9.0.0.jar",
+            "MD5": "7eb06d459405ed6c87b16f4c5be4493d"
+          }
+        },
+        {
+          "id": "com.mt1006:nbt_ac:1.1.8@jar",
+          "name": "NBT Autocomplete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 145151,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/NBTac-FABRIC-1.20.4-1.1.8.jar",
+            "MD5": "995a72dac029539ea04278c34cd46aef"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.7.1@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 415153,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/notenoughanimations-fabric-1.7.1-mc1.20.4.jar",
+            "MD5": "5739696ed8189673608f8864d7053035"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.11.1@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7290131,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/PresenceFootsteps-1.11.1.jar",
+            "MD5": "d251347072d74e536a726b646b82154f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385665,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.4-1.3.1@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 174028,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.4-1.3.1.jar",
+            "MD5": "03ab978129ce5b86db134bbb0bb1aea0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.4@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 43010,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/status-effect-bars-1.0.4.jar",
+            "MD5": "c9bc80d8ffa655439bad43e62c310860"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
+          "name": "Tiny Item Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18492,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/tia-1.20-1.1-fabric.jar",
+            "MD5": "262aef6a6587de46b8238ca1144deea5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.4@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 139421,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.4.jar",
+            "MD5": "94ed5306aea5ac57369941c47e0fc0b9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "betterf3.json",
+          "name": "betterf3.json",
+          "type": "File",
+          "artifact": {
+            "size": 2492,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/files/config/betterf3.json",
+            "MD5": "d888e64e44a3ab79ec0750d56c011297",
+            "path": "config/betterf3.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4405,
+            "url": "https://raw.githubusercontent.com/thecats1105/Japsik/main/nebula/servers/Japsik-1.20.4/files/options.txt",
+            "MD5": "f4a6db0edf2c1f25764b1026dc6c53eb",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
